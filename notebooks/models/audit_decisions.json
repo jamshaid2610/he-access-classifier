@@ -1,0 +1,38 @@
+{
+  "geographic_level": "Local authority",
+  "level_methodology": "Local education authority area",
+  "data_type": "Number of pupils",
+  "institution_group": "State-funded mainstream schools & colleges",
+  "cohort_break_years": [
+    202021,
+    202122
+  ],
+  "min_cohort_size": 30,
+  "target_threshold": 0.188,
+  "target_column": "all_top3rd",
+  "sentinels": {
+    "c": "suppressed - small number, confidentiality",
+    "z": "not applicable",
+    "x": "not available",
+    "low": "positive value, less than 0.5%",
+    "0": "true zero"
+  },
+  "num_cols": [
+    "all_cohort",
+    "all_progressed",
+    "all_degree",
+    "all_top3rd",
+    "all_appren",
+    "all_htech",
+    "acag_cohort",
+    "acag_progressed",
+    "tlev_cohort",
+    "tlev_progressed",
+    "otl3_cohort",
+    "otl3_progressed"
+  ],
+  "modelling_rows_train": 4631,
+  "modeliing_rows_holdout": 3287,
+  "unique_las": 154,
+  "class_balance_pos": 0.4351
+}
